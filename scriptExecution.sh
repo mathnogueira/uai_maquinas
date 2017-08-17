@@ -1,0 +1,10 @@
+python main.py instancias/Problema1.txt > solution1.txt
+python main.py instancias/Problema2.txt > solution2.txt
+python main.py instancias/Problema3.txt > solution3.txt
+python main.py instancias/Problema4.txt > solution4.txt
+python main.py instancias/Problema5.txt > solution5.txt
+python main.py instancias/Problema6.txt > solution6.txt
+python main.py instancias/Problema7.txt > solution7.txt
+python main.py instancias/Problema8.txt > solution8.txt
+python main.py instancias/Problema9.txt > solution9.txt
+python main.py instancias/Problema10.txt > solution10.txt

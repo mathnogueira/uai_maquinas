@@ -1,0 +1,6 @@
+Numero_Embalagens Numero_Cores Numero_Slots
+ 0 1 0 0 0 0 1 0 (significa que a embalagem 2 e a embalagem 7 utilizam a cor de número 1)
+ 0 0 0 1 0 1 0 0 (significa que a embalagem 4 e a embalagem 6 utilizam a cor de número 2)
+ ...
+ Ou seja: a coluna se refere às embalagens e cada linhas, às cores.
+
