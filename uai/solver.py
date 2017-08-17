@@ -83,9 +83,6 @@ def solve_problem(constants, data_input):
     for momento in range(numero_embalagens):
         conjunto_cores = C.select(momento, '*')
         cores_maquina.append([int(cor.X) for cor in conjunto_cores])
-            
 
-    print "Menor número de lavagens: {0}".format(model.objVal)
-    print "Ordem de impressão: {0}".format(ordem_impressao)
-    for momento in range(numero_embalagens):
-        print "Cores presentes na máquina do momento {0}: {1}".format(momento+1, cores_maquina[momento])
+    # Retorna os resultados do modelo
+    return (model.objVal, ordem_impressao, cores_maquina)
