@@ -2,8 +2,6 @@ from uai.file_parser import *
 from uai.solver import solve_problem
 import sys
 
-arquivo_entrada = sys.argv
-
 if __name__ == "__main__":
 	
 	if len(sys.argv) < 2:
