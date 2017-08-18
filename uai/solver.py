@@ -4,7 +4,6 @@
 from gurobipy import *
 
 
-
 def solve_problem(constants, data_input):
     # numero_embalagens <-- número de embalagens a serem impressas na máquina.
     # numero_cores <-- número total de cores que serão utilizadas para imprimir as embalagens.
